@@ -1,0 +1,82 @@
+.body html{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    align-items: center;
+    /* overflow: auto; */
+    /* width: 100%; */
+    /* background-color: #f5eeee; */
+
+}
+.fixed-top{
+    background-attachment: fixed!important;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.navbar-brand{
+    color: rgb(47, 47, 107);
+    text-decoration: none;
+    /* padding: 10px 0px; */
+    font-size: 25px;
+}
+.navbar-nav{
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    display: flex;
+    /* margin-left: 3sem; */
+    height: 100%;
+    /* width: 100%; */
+}
+.navbar-nav li{
+    list-style: none;
+}
+.navbar-nav li a{
+    text-decoration: none;
+    color: #000;
+
+}
+.navbar-nav .fa-search{ 
+    padding: 10px 10px;
+    /* border: none; */
+    border-radius: 6px;
+}
+.container{
+    justify-content: center;
+    margin-top: 9em;
+}
+.image{
+    background-image: url('../image/Rectangle\ 10.png');
+    height: 50%;
+}
+.container h3{
+    margin-top: -5em;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 20px;
+}
+.container p{
+    color: #fff;
+    font-size: 33px;
+    margin-left: 20px;
+}
+.content{
+    padding: 0em 1em;
+}
+.content img{
+    padding: 0em 1em;
+    /* margin-top: 1em; */
+}
+.content-one img{
+    padding: 0em 1em;
+}
+.container .col-6{
+    width: 66%;
+}
